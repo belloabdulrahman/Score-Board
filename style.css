@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: sevenSegment;
+    src: url(./seven_segment/7\ Segment.ttf);
+}
+body{
+    background-color:bisque;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:70px  auto;
+    gap: 5px;
+    height: 70vh;
+    max-width: 80%;
+}
+.main-container{
+    
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: cadetblue; 
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;  
+    
+}
+.guest-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;   
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 3px;
+}
+.place{
+    color: white;
+}
+.show-home, .show-guest{
+    background-color: black;
+    color: crimson;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 80px;
+    border: 2px solid palevioletred;
+    font-family: sevenSegment;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    color: darkorchid;
+    background-color:darkgrey ;
+    font-family: sevenSegment;
+    font-size: medium;
+    border: 2px solid green;
+}
+button:hover{
+    background-color: darkkhaki;
+    cursor: pointer;
+}
+.new-game{
+    padding: 5px;
+    border-radius: 5px;
+    color: darkorchid;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
